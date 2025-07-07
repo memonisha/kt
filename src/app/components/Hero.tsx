@@ -10,7 +10,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="text-4xl md:text-6xl font-serif font-bold text-purple-700"
       >
-        Kshitij Choudhary
+        Kshitij Tewari
       </motion.h1>
       <motion.p 
         initial={{ opacity: 0 }} 

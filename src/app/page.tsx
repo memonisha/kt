@@ -1,14 +1,14 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Research from "./components/Research";
+'use client';
 
-export default function HomePage() {
+import Sidebar from '@/app/components/sections/Sidebar';
+import Content from '@/app/components/sections/Content';
+import styles from '@/styles/layout.module.css';
+
+export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
-      <Hero />
-      <About />
-      <Research />
-      {/* More sections will go here */}
+    <main className={styles.container}>
+      <Sidebar />
+      <Content />
     </main>
   );
 }

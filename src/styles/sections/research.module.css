@@ -1,0 +1,26 @@
+.section {
+  padding: 60px;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tagList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tag {
+  background-color: #222;
+  border: 1px solid #555;
+  color: #eee;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}

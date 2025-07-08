@@ -1,7 +1,8 @@
+import './globals.css';
 
 export const metadata = {
-  title: "Kshitij Tewari",
-  description: "Welcome to my portfolio!",
+  title: 'Kshitij Tewari',
+  description: 'Research Portfolio',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
